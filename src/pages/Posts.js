@@ -55,7 +55,7 @@ const Posts = () => {
                 </div>
             })}
             {loading &&
-                <CircularProgress  color="secondary" />
+                <Typography variant={"h3"} align="center" sx={{my:1, mx:'auto'}}>Loading</Typography>
             }
             {error &&
                 <Typography variant={"h3"} align="center" sx={{my:1, mx:'auto'}}>Error</Typography>
